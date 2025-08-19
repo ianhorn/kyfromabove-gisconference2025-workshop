@@ -14,8 +14,9 @@ theme: readthedocs
 nav:
   - Home: index.md
   - Setup: 
-  
     - Overview: setup/index.md
-    - Google Colab: setup/Google Colab/index.md
-    - Local environment: setup/Local Environment/index.md
+    - Fork the Repo: setup/fork-repo/index.md
+    - MyBinder: setup/mybinder/index.md
+    - Google Colab: setup/google-colab/index.md
+    - Local environment: setup/local-environment/index.md
   - Contact: contact.md
