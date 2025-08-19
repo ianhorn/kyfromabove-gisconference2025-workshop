@@ -1,8 +1,21 @@
+# site_name: DGI - Workshop
+# theme: readthedocs
+# nav:
+#   - Home: index.md
+#   - Setup: setup/index.md
+#         - Google Colab: setup/Google Colab/index.md
+#         - Local environment: setup/Local Environment/index.md
+#   - Contact: contact.md
+
+
+
 site_name: DGI - Workshop
 theme: readthedocs
 nav:
   - Home: index.md
-  - Setup: setup.md
-  - Workshop Details: workshop_details.md
-  - Resources: resources.md
+  - Setup: 
+  
+    - Overview: setup/index.md
+    - Google Colab: setup/Google Colab/index.md
+    - Local environment: setup/Local Environment/index.md
   - Contact: contact.md
