@@ -1,1 +1,7 @@
-ÿþ
+name: workshop-env
+channels:
+  - conda-forge
+dependencies:
+  - jupytergis
+  - qgis
+  - leafmap
