@@ -1,7 +1,7 @@
 
 ## Local Setup
 
-1. [Fork](#fork-the-repo---optional) the repo
+1. [Fork](../fork-repo/index.md) the repo
 2. Setup python environoment
 
 Conda
