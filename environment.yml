@@ -2,6 +2,8 @@ name: workshop-env
 channels:
   - conda-forge
 dependencies:
-  - jupytergis
-  - qgis
+  - geopandas
+  - gdal
+  - pdal
   - leafmap
+  - rasterio
