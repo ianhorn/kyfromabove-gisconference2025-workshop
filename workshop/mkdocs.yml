@@ -1,0 +1,8 @@
+site_name: DGI - Workshop
+theme: readthedocs
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Workshop Details: workshop_details.md
+  - Resources: resources.md
+  - Contact: contact.md
