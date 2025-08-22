@@ -9,7 +9,9 @@ For this exercise, you will need to choose a platform for which you can run a py
     - using a conda/mamba environment
     - using a virtual environment with pip (e.g., python -m venv myenv + pip install jupyter)
 
-Some items your may need:
+For for the purposes of the workshop, I recomment most users use **MyBinder**.  When launched, if will build the environment we need to get started.
+
+Some items you may need:
 
     Google Login
     Kaggle Login
