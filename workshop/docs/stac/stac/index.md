@@ -46,7 +46,7 @@ The basic component of a stac are the following:
         - [OpenAPI specification](https://swagger.io/specification/)
         - Open Geospatial Consortium [(OGC) WFS3](https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html)
 
-## TL/DR
+## TL;DR
 
 1. The STAC Specification is the common structure that describes and catalogs spatiotemporal Assets.  
 2. Items is the basic unit of a catalog

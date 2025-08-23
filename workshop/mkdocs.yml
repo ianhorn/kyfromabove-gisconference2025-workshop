@@ -1,12 +1,12 @@
 site_name: DGI - Workshop
-theme: readthedocs
+theme: cinder
 nav:
   - Home: index.md
   - Environment: 
-    - Overview: setup/index.md
-    - Fork the Repo: setup/fork-repo/index.md
-    # - MyBinder: setup/mybinder/index.md
-    - Local environment: setup/local-environment/index.md
+    # - Overview: setup/index.md
+    # - Fork the Repo: setup/fork-repo/index.md
+    # # - MyBinder: setup/mybinder/index.md
+    # - Local environment: setup/local-environment/index.md
   - SpatioTemporal Asset Catalog:
     - STAC: stac/stac/index.md
   
