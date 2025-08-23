@@ -13,7 +13,7 @@
       <script>
         // Current page data
         var mkdocs_page_name = "Fork the Repo";
-        var mkdocs_page_input_path = "setup\\fork-repo\\index.md";
+        var mkdocs_page_input_path = "setup/fork-repo/index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -51,9 +51,7 @@
     <ul class="current">
     </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../mybinder/">MyBinder</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../google-colab/">Google Colab</a>
+                  <li class="toctree-l1"><a class="" href="../mybinder/index.md">MyBinder</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../local-environment/">Local environment</a>
                   </li>
@@ -87,7 +85,7 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="fork-the-repo">Fork the repo</h1>
-<p>This part is optional.  You must either have a Github account or create one now.  Go to the <a href="https://github.com">Github</a> and sign in or <a href="https://github.com/signup">Sign Up</a></p>
+<p>This part is optional and is only recommended for experieced Github users. Sign into <a href="https://github.com">GitHub</a></p>
 <p>From your Github Dashboard, use the search bar at the top.</p>
 <hr />
 <p><img alt="Github Search" src="../assets/github_search.png" /></p>
@@ -100,12 +98,26 @@
 <p><img alt="Github Fork" src="../assets/github_fork.png" /></p>
 <hr />
 <p>You can use my repository name or you can edit to your own.  </p>
+<p>Now that you have your own fork you can cmd/terminal to download to get started.</p>
+<pre><code class="language-bash">git clone https://github.com/ianhorn/kyfromabove-gisconference2025-workshop.git kyfromabove-workshop
+cd kyfromabove-workshop
+</code></pre>
+<p>Now set up your environment with pip</p>
+<pre><code class="language-cmd">python -m venv venv
+venv/Scripts/activate.bat
+pip install -r requirements.txt
+</code></pre>
+<p>or conda</p>
+<pre><code class="language-cmd">conda init
+conda env create -f environment.yml
+conda activate workshop-env
+</code></pre>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../mybinder/" class="btn btn-neutral float-right" title="MyBinder">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../local-environment/" class="btn btn-neutral float-right" title="Local environment">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -131,7 +143,7 @@
       <span><a href="../" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../mybinder/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../local-environment/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
