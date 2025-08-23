@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Using Binder - DGI - Workshop</title>
+    <title>STAC - DGI - Workshop</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Using Binder";
-        var mkdocs_page_input_path = "setup/MyBinder/index.md";
+        var mkdocs_page_name = "STAC";
+        var mkdocs_page_input_path = "stac/stac/index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -45,16 +45,22 @@
               </ul>
               <p class="caption"><span class="caption-text">Environment</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../">Overview</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../setup/">Overview</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fork-repo/">Fork the Repo</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../setup/fork-repo/">Fork the Repo</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../local-environment/">Local environment</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../setup/local-environment/">Local environment</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">SpatioTemporal Asset Catalog</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../stac/stac/">STAC</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">STAC</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-a-spatiotemporal-asset-catlog">What is a SpatioTemporal Asset Catlog?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tldr">TL/DR</a>
+    </li>
+    </ul>
                   </li>
               </ul>
               <ul>
@@ -75,7 +81,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Using Binder</li>
+          <li class="breadcrumb-item">SpatioTemporal Asset Catalog</li>
+      <li class="breadcrumb-item active">STAC</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -84,19 +91,83 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="using-binder">Using Binder</h1>
-<p>Binder allows us to use an already created environment notebook from a (Github) repository.</p>
-<p>On the MyBinder <a href="https://mybinder.org">landing page</a>, you will see an interactive block for which to launch the repo with its python environment set up for us.</p>
+                <h1 id="stac">STAC</h1>
+<h2 id="what-is-a-spatiotemporal-asset-catlog">What is a SpatioTemporal Asset Catlog?</h2>
+<p>Why STAC?</p>
+<p>Here are some highlights from the <a href="https://stacspec.org">STAC Spec</a> landing page.</p>
+<blockquote>
+<blockquote>
+<p>When a user wants to search for all the imagery in their area and time of interest they can’t make just one search — they have to use different tools and connect to API’s that are similar but all slightly different. STAC aims to make that much easier, by providing common metadata to expose geospatial assets.</p>
+</blockquote>
+</blockquote>
+<p>Space, and Time?</p>
+<p>Yes, you can simultaneously query by geography and dates for an area of interest.</p>
+<p>But How?</p>
+<p>Because STAC is a way to serve earth observation data via it's metadata.</p>
+<blockquote>
+<p>STAC aims to make that much easier, by providing common metadata to expose geospatial assets.</p>
+</blockquote>
+<p>What makes a STAC?</p>
+<p>The basic component of a stac are the following:</p>
 <ol>
-<li>Grab you forked repo URL.
-Or use mine: <code>https://github.com/ianhorn/kyfromabove-gisconference2025-workshop</code></li>
+<li>
+<p>Item</p>
+<ul>
+<li>data + metadata</li>
+<li>file location</li>
+<li>date collected</li>
+<li>relevant links<ul>
+<li>thumbnails</li>
+<li>world files</li>
+<li>viewers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Catalog</p>
+<ul>
+<li>structure or heirarchy</li>
+<li>groups of child catalogs</li>
+<li>list of stac items</li>
+</ul>
+</li>
+<li>
+<p>Collection</p>
+<ul>
+<li>extension of a catalog</li>
+<li>more metadata<ul>
+<li>date ranges</li>
+<li>equipment</li>
+<li>providers</li>
+<li>more metadata</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>STAC API</strong><ul>
+<li>enables the search component<ul>
+<li><a href="https://swagger.io/specification/">OpenAPI specification</a></li>
+<li>Open Geospatial Consortium <a href="https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html">(OGC) WFS3</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ol>
-<p><img alt="MyBinder Landing Page" src="../assets/mybinder-launch.png" /></p>
-<p>Leave the <strong>Git ref</strong> as <em>head</em> and <strong>Files to open</strong> blank.  Then click <code>launch</code></p>
-<p>You can <strong>show</strong> the <em>Build Logs</em> to monitor process.</p>
+<h2 id="tldr">TL/DR</h2>
+<ol>
+<li>The STAC Specification is the common structure that describes and catalogs spatiotemporal Assets.  </li>
+<li>Items is the basic unit of a catalog</li>
+<li>Catalogs provide structure</li>
+<li>Collections are an extension of the catalog that help describe the data or subset of data in a similar manner.  </li>
+</ol>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../setup/local-environment/" class="btn btn-neutral float-left" title="Local environment"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../contact/" class="btn btn-neutral float-right" title="Contact">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -118,6 +189,10 @@ Or use mine: <code>https://github.com/ianhorn/kyfromabove-gisconference2025-work
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../../setup/local-environment/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../contact/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
