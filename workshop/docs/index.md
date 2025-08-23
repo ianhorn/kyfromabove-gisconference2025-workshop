@@ -19,3 +19,12 @@ Kentucky from Above on the [AWS Open Data Registry](https://registry.opendata/ky
 - Who are you?
 - What are your interests?
 - What brings you here today?
+
+## Terms
+
+| Acronym       |  Meaning |
+| ------------- | -------- |
+| KyFromAbove   | Kentucky From Above                            |
+| KYAPED        | Kentucky Aerial Photography and Elevation Data |
+| STAC          |SpatioTemporal Asset Catalog                    |
+| STAC-Browser  | web browser interface to explore a STAC API    |
