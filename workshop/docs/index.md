@@ -8,7 +8,7 @@ Kentucky from Above on the [AWS Open Data Registry](https://registry.opendata/ky
 
 - Name: Ian Horn
 - Work - DGI or Commonwealth Office of Technology - Division of Geographic Information
-- DGI Mandate - serve a central clearing house for all spatial data in state government
+- DGI Mandate - serve as a central clearing house for all spatial data in state government
 - KYAPED - Kentucky Aerial Photography and Elevation Data
   - Collect statewide data
   - make publicly available
