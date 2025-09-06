@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Using Binder - DGI - Workshop</title>
+    <title>Setting up Google Colab - DGI - Workshop</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Using Binder";
-        var mkdocs_page_input_path = "setup/MyBinder/index.md";
+        var mkdocs_page_name = "Setting up Google Colab";
+        var mkdocs_page_input_path = "environment\\google-colab\\index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -43,23 +43,31 @@
                 <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Environment</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../">Overview</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../fork-repo/">Fork the Repo</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../local-environment/">Local environment</a>
-                  </li>
+                <li class="toctree-l1"><a class="reference internal" href="../">Environment</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../resources/">Resources</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                </li>
               </ul>
               <p class="caption"><span class="caption-text">SpatioTemporal Asset Catalog</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../stac/stac/">STAC</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../stac/stac-browser/">Stac-Browser</a>
+                  </li>
               </ul>
+              <p class="caption"><span class="caption-text">STAC with Desktop GIS</span></p>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
-                </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../desktop-gis/qgis/">QGIS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../desktop-gis/arcgis-pro/">ArcGIS Pro</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -75,7 +83,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Using Binder</li>
+      <li class="breadcrumb-item active">Setting up Google Colab</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -84,16 +92,22 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="using-binder">Using Binder</h1>
-<p>Binder allows us to use an already created environment notebook from a (Github) repository.</p>
-<p>On the MyBinder <a href="https://mybinder.org">landing page</a>, you will see an interactive block for which to launch the repo with its python environment set up for us.</p>
+                <h1 id="setting-up-google-colab">Setting up Google Colab</h1>
+<blockquote>
+<p>Colab is a hosted Jupyter Notebook service that requires no setup to use and provides free access to computing resources, including GPUs and TPUs. Colab is especially well suited to machine learning, data science, and education.</p>
+</blockquote>
+<p>All you need is Google account to use Google Colab is a Google Account.</p>
 <ol>
-<li>Grab you forked repo URL.
-Or use mine: <code>https://github.com/ianhorn/kyfromabove-gisconference2025-workshop</code></li>
+<li>Click the Google Colab <a href="https://colab.research.google.com/">Link</a></li>
+<li>Sign in </li>
+<li>At the top, click <em>File</em> --&gt; <em>Open Notebook</em></li>
+<li>Click on <em>Github</em> on the left.</li>
+<li>Enter <code>https://github.com/ianhorn/kyfromabove-gisconference2025-workshop</code> as the github URL.</li>
 </ol>
-<p><img alt="MyBinder Landing Page" src="../assets/mybinder-launch.png" /></p>
-<p>Leave the <strong>Git ref</strong> as <em>head</em> and <strong>Files to open</strong> blank.  Then click <code>launch</code></p>
-<p>You can <strong>show</strong> the <em>Build Logs</em> to monitor process.</p>
+<p>For step 5, you may need to click outside the search URL box for the Repository to change.</p>
+<hr />
+<p><img alt="Open Notebook from Github" src="../assets/colab_open_notebook_github.png" /></p>
+<hr />
               
             </div>
           </div><footer>
