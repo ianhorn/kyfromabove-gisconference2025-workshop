@@ -172,10 +172,26 @@ You may now toggle off the NDVI raster.  For this section, we are going to perfo
 
 Back in the *Explore STAC* pane, on the *Parameters* tab, uncheck any collections.
 
- - Check on *dem-phase1* and *dem-phase3* collections.
+ - Check the *dem-phase1* collection.
  - Alter the extent to include the map's current view.
  - Click *View Results*
- - Select 4 phase 1 tiles in our AOI
- - Make note of the tiles you pick
+ - Mosaic 4 tiles   
+    - N126E433_2011...
+    - N126E444_2011...
+    - N127E443_2011...
+    - N127E444_2011...
  - Add as a mosaic layer to your map
  - Rename new mosaic to DEM-Phase1
+
+Repeat steps for phase3 dem.  Add the same 4 tiles to as a mosaic layer and rename DEM-Phase3
+Feel free to play around with the swipe tool in the Imagery tab, try out any raster functions, etc.
+<p align="center">
+  <img src="assets/aoi_easternky.png" width="70%"  />
+  <figcaption>AOI in Pike County, Kentucky with footprints overlain.</figcaption>
+</p>
+
+Feel free to turn off the footprints or remove from the map.  Remember to save the project occasionally.
+
+#### Perform Change Detection
+
+Click on the Imagery tab at the top, select the *Change Detection* icon and this will open the *Change Detection Wizard* pane.  
