@@ -3,8 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-arcgis-pro
-qgis
+arcgis-pro-project
+qgis-project
 misc
 .DS_Store
 # C extensions
