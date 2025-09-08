@@ -141,7 +141,7 @@ With the mosaic layer still selected in the Contents Panel, toggle open Imagery 
 
 <p align="center">
   <img src="assets/rasterfunctions.png" width="400" height="auto"/>
-  <figcaption><strong>Figure: </strong>Raster Functin Panel.</figcaption>
+  <figcaption><strong>Figure: </strong>Raster Function Panel.</figcaption>
 </p>  
 
  - Change *Hillshade Type* to *Multidirectionl*.  
@@ -160,7 +160,9 @@ With the mosaic layer still selected in the Contents Panel, toggle open Imagery 
  Repeat the steps for the same Phase 3 DEM tiles.  Once added to the map as a mosaic layer, rename raster to *DEM-Phase3*. Toggle off any raster layers we added.  Repeat steps to create another multidirectional hillshade raster.
 
 ___
-### Analysis - Change Detection
+### Analysis 
+
+#### Change Detection
 
 For this section, we are going to perform a change detection analysis using the two mosaicked layers from different time periods. Like before, will used the mine South of Woodman, and just south of the Lower Elk Creek near North Hollow. ***X*** marks the spot.
 
@@ -170,4 +172,48 @@ For this section, we are going to perform a change detection analysis using the 
   <figcaption><strong>Figure: </strong>Coal mine south of Woodman, Kentucky.</figcaption>
 </p>
 
-Click on the Imagery tab at the top, select the *Change Detection* icon and this will open the *Change Detection Wizard* pane.  
+Click on the Imagery tab at the top, select the *Change Detection* icon and this will open the *Change Detection Wizard* pane.
+
+#### Configure the wizard
+
+  - *Change Detection Method* - Pixel Value Change
+  - *From Raster* - DEM-Phase1
+  - *To Raster* - DEM-Phasd3
+  - *Statistics and Histogram Computation* - use default values
+  <p align="center">
+    <img src="assets/wizard.png" width="350" height="auto"/>
+    <figcaption><strong>Figure: </strong>Change Detection Wizard Panel.</figcaption>
+  </p>
+ - Click *Next >*  
+ - Leave the *Band Difference* with default values. Click *Next >*  
+
+On the next Change Detection Wizard page, the tool tells us we need to calculate statistics.  
+
+ - Click on the bar chart icon in the top right hand corner to do so.
+ <p align="center">
+  <img src="assets/calculatestatistics.png" width="400" height="auto"/>
+  <figcaption><strong>Figure: </strong>Classify Difference page for the change detection wizard.  Click on the statistics graph icon in top right corner.</figcaption>
+</p>    
+
+- Uncheck *Classify the difference in values. 
+- Click *Next >* to move to *Output Generation*.   
+- Leave values as default and click *Preview* at the bottom.  
+ 
+You should see something like this.<br><p align="center">
+  <img src="assets/preview.png" width="350" height="auto"/>
+  <figcaption><strong>Figure: </strong>Image Preview using the Change Detection Wizard.  Green indicates a negative change while red indicates a positive change.</figcaption>
+</p> 
+
+ - Back in the wizard panel, rename output to *ChangeDetection.tif*.
+ - Click *Run*
+
+ The result will be a raster with a linear scale of our values with darker showing decreases and white showing increases.  Take a moment to play around with *Raster Layer -> Layer Blend* values.
+
+#### Output
+
+You should see something like this.<br><p align="center">
+  <img src="assets/change_vividlight.png" width="500" height="auto"/>
+  <figcaption><strong>Figure: </strong>Tiff output of Change Detection Wizard with 0% transparency and layer blend set to <em>Vivid Light</em>.</figcaption>
+</p> 
+
+This concludes the activity of playing around with a STAC API in ArcGIS Pro v 3.5.X.  Feel free to continue exploring until we move to the next activity.

@@ -1,10 +1,10 @@
 # Stac-Browser
 
-## Landing Page
+### Landing Page
 
 Finally, what we really want to see.
 
-It turns an ugly JSON file into a user friendly experience.  Please open a browser and go to the KyFromAbove Stac-Browser **Landing Page**:
+It converts what looks like an JSON file into a user friendly experience.  Please open a browser and go to the KyFromAbove Stac-Browser **Landing Page**:
 
 ```cmd
 https://kygeonet.ky.gov/stac
@@ -14,7 +14,7 @@ https://kygeonet.ky.gov/stac
 
 ### Button Functions
 
-Let's take a look at the top right hand corner by clicking on each button to see what's they show.
+Let's take a look at the top right hand corner by clicking on each button to see what they show.
 
 | Button   | Display                                |
 |----------|----------------------------------------|
@@ -37,5 +37,4 @@ On the left we have the browse and search buttons.
 | OpenAPI service description   | JSON file describing the API endpoint |
 | OpenAPI service documentation | API exploration, playground, tool     |
 
-## Explore
-
+Explore

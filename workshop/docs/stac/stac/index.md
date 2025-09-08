@@ -13,7 +13,7 @@ Yes, you can simultaneously query by geography and dates for an area of interest
 
 But How?
 
-Because STAC is a way to serve earth observation data via it's metadata.
+Because STAC is a way to serve earth observation data via its metadata.
 >STAC aims to make that much easier, by providing common metadata to expose geospatial assets.
 
 What makes a STAC?

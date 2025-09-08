@@ -2,7 +2,7 @@ site_name: DGI - Workshop
 theme: readthedocs 
 nav:
   - Home: index.md
-  - Environment: environment/index.md
+  - Environment (Optional): environment/index.md
   - Resources: resources/index.md
   - Contact: contact.md
   - SpatioTemporal Asset Catalog:
