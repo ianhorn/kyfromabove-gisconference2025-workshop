@@ -56,7 +56,7 @@ conda activate workshop-env
 
 ## Local Setup
 
-1. [Fork](../fork-repo/index.md) the repo
+1. [Fork](../index.md) the repo
 2. Setup python environoment
 
 Conda
