@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>STAC - DGI - Workshop</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "STAC";
+        var mkdocs_page_input_path = "stac\\stac\\index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> DGI - Workshop
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../environment/">Environment (Optional)</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../resources/">Resources</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">SpatioTemporal Asset Catalog</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">STAC</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-a-spatiotemporal-asset-catlog">What is a SpatioTemporal Asset Catlog?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tldr">TL;DR</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../stac-browser/">Stac-Browser</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">STAC with Desktop GIS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../desktop-gis/qgis/">QGIS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../desktop-gis/arcgis-pro/">ArcGIS Pro</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">DGI - Workshop</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">SpatioTemporal Asset Catalog</li>
+      <li class="breadcrumb-item active">STAC</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="stac">STAC</h1>
+<h2 id="what-is-a-spatiotemporal-asset-catlog">What is a SpatioTemporal Asset Catlog?</h2>
+<p>Why STAC?</p>
+<p>Here are some highlights from the <a href="https://stacspec.org">STAC Spec</a> landing page.</p>
+<blockquote>
+<blockquote>
+<p>When a user wants to search for all the imagery in their area and time of interest they can’t make just one search — they have to use different tools and connect to API’s that are similar but all slightly different. STAC aims to make that much easier, by providing common metadata to expose geospatial assets.</p>
+</blockquote>
+</blockquote>
+<p>Space, and Time?</p>
+<p>Yes, you can simultaneously query by geography and dates for an area of interest.</p>
+<p>But How?</p>
+<p>Because STAC is a way to serve earth observation data via its metadata.</p>
+<blockquote>
+<p>STAC aims to make that much easier, by providing common metadata to expose geospatial assets.</p>
+</blockquote>
+<p>What makes a STAC?</p>
+<p>The basic component of a stac are the following:</p>
+<ol>
+<li>
+<p>Item</p>
+<ul>
+<li>data + metadata</li>
+<li>file location</li>
+<li>date collected</li>
+<li>relevant links<ul>
+<li>thumbnails</li>
+<li>world files</li>
+<li>viewers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Catalog</p>
+<ul>
+<li>structure or heirarchy</li>
+<li>groups of child catalogs</li>
+<li>list of stac items</li>
+</ul>
+</li>
+<li>
+<p>Collection</p>
+<ul>
+<li>extension of a catalog</li>
+<li>more metadata<ul>
+<li>date ranges</li>
+<li>equipment</li>
+<li>providers</li>
+<li>more metadata</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>STAC API</strong><ul>
+<li>enables the search component<ul>
+<li><a href="https://swagger.io/specification/">OpenAPI specification</a></li>
+<li>Open Geospatial Consortium <a href="https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html">(OGC) WFS3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="tldr">TL;DR</h2>
+<ol>
+<li>The STAC Specification is the common structure that describes and catalogs spatiotemporal Assets.  </li>
+<li>Items is the basic unit of a catalog</li>
+<li>Catalogs provide structure</li>
+<li>Collections are an extension of the catalog that help describe the data or subset of data in a similar manner.  </li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../contact/" class="btn btn-neutral float-left" title="Contact"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../stac-browser/" class="btn btn-neutral float-right" title="Stac-Browser">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../contact/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../stac-browser/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Environment (Optional) - DGI - Workshop</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Environment (Optional)";
+        var mkdocs_page_input_path = "environment\\index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> DGI - Workshop
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Environment (Optional)</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#fork-the-repo">Fork the repo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#local-setup">Local Setup</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../resources/">Resources</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">SpatioTemporal Asset Catalog</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../stac/stac/">STAC</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../stac/stac-browser/">Stac-Browser</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">STAC with Desktop GIS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../desktop-gis/qgis/">QGIS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../desktop-gis/arcgis-pro/">ArcGIS Pro</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">DGI - Workshop</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Environment (Optional)</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="getting-started">Getting Started</h1>
+<p>For this exercise, you will need to choose a platform for which you can run a python notebook.  Examples include but are not limited to:</p>
+<ul>
+<li><a href="https://mybinder.org">MyBinder</a></li>
+<li><a href="https://colab.research.google.com/">Google Colab</a> - Easy Setup</li>
+<li><a href="https://studiolab.sagemaker.aws/">SageMaker Studio Lab</a> - Must already have an account - takes time to get approved</li>
+<li>Local Jupyter - recommended only for experienced python users<ul>
+<li>using a conda/mamba environment</li>
+<li>using a virtual environment with pip (e.g., python -m venv myenv + pip install jupyter)</li>
+</ul>
+</li>
+</ul>
+<p>For for the purposes of the workshop, I recomment most users use <strong>MyBinder</strong>.  When launched, if will build the environment we need to get started.</p>
+<h2 id="fork-the-repo">Fork the repo</h2>
+<p>This part is optional and is only recommended for experieced Github users. Sign into <a href="https://github.com">GitHub</a></p>
+<p>From your Github Dashboard, use the search bar at the top.</p>
+<hr />
+<p><img alt="Github Search" src="assets/github_search.png" /></p>
+<hr />
+<p>Copy and paste the following:</p>
+<pre><code class="language-bash">repo:ianhorn/kyfromabove-gisconference2025-workshop
+</code></pre>
+<p>Once you are on this page, click on <em>Fork</em> in the top right corner to for this repo.</p>
+<hr />
+<p><img alt="Github Fork" src="assets/github_fork.png" /></p>
+<hr />
+<p>You can use my repository name or you can edit to your own.  </p>
+<p>Now that you have your own fork you can cmd/terminal to download to get started.</p>
+<pre><code class="language-bash">git clone https://github.com/ianhorn/kyfromabove-gisconference2025-workshop.git kyfromabove-workshop
+cd kyfromabove-workshop
+</code></pre>
+<p>Now set up your environment with pip</p>
+<pre><code class="language-cmd">python -m venv venv
+venv/Scripts/activate.bat
+pip install -r requirements.txt
+</code></pre>
+<p>or conda</p>
+<pre><code class="language-cmd">conda init
+conda env create -f environment.yml
+conda activate workshop-env
+</code></pre>
+<h2 id="local-setup">Local Setup</h2>
+<ol>
+<li><a href="../">Fork</a> the repo</li>
+<li>Setup python environoment</li>
+</ol>
+<p>Conda</p>
+<pre><code class="language-bash">conda init
+conda env create -f environment.yml
+conda activate workshop-env
+</code></pre>
+<p>Virtual Environment</p>
+<ul>
+<li>Windows</li>
+</ul>
+<pre><code class="language-bash">python -m venv venv
+venv\Scripts\activate.bat
+python -m pip install -r requiements.txt
+</code></pre>
+<ul>
+<li>mac/linux</li>
+</ul>
+<pre><code class="language-bash">python -m venv venv
+source venv/bin/activate
+python -m pip install -r requiements.txt
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../resources/" class="btn btn-neutral float-right" title="Resources">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../resources/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
