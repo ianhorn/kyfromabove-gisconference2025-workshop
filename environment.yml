@@ -4,6 +4,6 @@ channels:
 dependencies:
   - geopandas
   - gdal
-  - pdal
+  - pdal==2.8.4
   - leafmap
   - rasterio

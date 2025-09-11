@@ -1,0 +1,30 @@
+[
+  {
+    "type": "readers.copc",
+    "filename": "https://kyfromabove.s3.us-west-2.amazonaws.com/elevation/PointCloud/Phase3/N023E293_LAS_Phase3.copc.laz"
+  },
+  {
+    "type": "filters.expession",
+    "expression": "ReturnNumber == 1 || ReturnNumber == 1"
+  },
+  {
+    "type": "filters.hag_delaunay",
+    "allow_extrapolation": true
+  },
+  {
+    "type": "filters.ferry",
+    "dimensions": "HeightAboveGround=>Z"
+  },
+  {
+    "type": "writers.gdal",
+    "filename": "hag.tif",
+    "resolution": 2,
+    "output_type": "max",
+    "gdalopts": [
+      "COMPRESS=LZW",
+      "TILED=YES",
+      "BLOCKYSIZE=256",
+      "BLOCKYSIZE=256"
+    ]
+  }
+]
