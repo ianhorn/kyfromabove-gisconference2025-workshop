@@ -13,7 +13,6 @@ dependencies:
   - rasterstats
   - shapely
   - pdal=2.8.4
-  - pystac_client
   - scipy
   - trimesh
   - pip
