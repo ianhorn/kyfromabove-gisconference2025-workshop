@@ -16,4 +16,7 @@ dependencies:
   - pystac_client
   - scipy
   - trimesh
+  - pip
+  - pip:
+    - pystac-client
  
