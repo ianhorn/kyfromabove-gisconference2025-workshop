@@ -81,6 +81,11 @@
                   <li class="toctree-l1"><a class="reference internal" href="../desktop-gis/arcgis-pro/">ArcGIS Pro</a>
                   </li>
               </ul>
+              <p class="caption"><span class="caption-text">Python Exercises</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../python/">Notebooks</a>
+                  </li>
+              </ul>
       </div>
     </div>
     </nav>
@@ -108,21 +113,23 @@
 <h2 id="kygisserver">KyGISServer</h2>
 <pre><code class="language-html">https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services
 </code></pre>
-<p><a href="https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services">kygisserver</a> is the landing map of our vector-based and cached-map servers.  I recommend familiarizing yourself with this page as a great resource.</p>
+<p><a href="https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services">kygisserver</a> is DGI's public-facing vector-based GIS server.  The above URL is the REST Endpoint Service.  These services can be connected to many GIS softwares such as QGIS and ArcGIS Pro.  The services may also be leveraged according the the <a href="https://kygisserver.ky.gov/arcgis/sdk/rest/02ss/02ss00000029000000.htm">API Documentation</a>.</p>
 <h2 id="open-data-portal">Open Data Portal</h2>
-<pre><code class="language-text">https://opengisdata.ky.gov/
+<pre><code class="language-html">https://opengisdata.ky.gov/
 </code></pre>
-<p>The KyGovMaps <a href="https://opengisdata.ky.gov/">Open Data Portal</a> is another great resource for vector data sources.  This is also the place you want to visit for <strong>Metadata</strong>, especially since the <a href="https://kygeoportal.ky.gov">KyGeoPortal</a> will retire in October 2025.</p>
+<p>The KyGovMaps <a href="https://opengisdata.ky.gov/">Open Data Portal</a> is another great resource for vector data sources.  This is also the place you want to visit for <strong>Metadata</strong>.  <em>It will be the only source for metadata once <a href="https://kygeoportal.ky.gov">KyGeoPortal</a> retires in October 2025.</em></p>
 <h2 id="kyraster">KyRaster</h2>
 <pre><code class="language-html">https://kyraster.ky.gov/arcgis/
 </code></pre>
-<p><a href="https://kyraster.ky.gov/arcgis">kyraster</a> is landing page for our raster-based services.  Products are divided into <code>Imagery</code> and <code>Elevation</code>.</p>
+<p><a href="https://kyraster.ky.gov/arcgis/rest/services">kyraster</a> is GIS Server that hosts the Commonwealth imagery and elevation data.  The above REST Service Endpoint URL functions the same way as <em>kygisserver</em>.  Documention on how to use is in the KyRaster <a href="https://kyraster.ky.gov/arcgis/sdk/rest/index.html#//02ss00000029000000">API Documentation</a></p>
+<p>From the service endpoint, data services reside in the <em>Imagery</em> and <em>Elevation</em> folders.  </p>
 <h2 id="kyfromabove-on-aws-explorer">KyFromAbove on AWS Explorer</h2>
 <pre><code class="language-html">https://kyfromabove.s3.us-west-2.amazonaws.com/index.html
 </code></pre>
 <p>This is javascript-based <a href="https://kyfromabove.s3.us-west-2.amazonaws.com/index.html">Explorer</a>  serves the kyfromabove aws bucket as an explorer-like environment.  This is a great resource to download files if you already know the name of the file.  Also, it also contains links to tile grids in Geopackage formats that can be view in desktop software, python, online viewers, and so on.</p>
 <p align="center">
- <img title="AWS Explorer" src="explorer.png" style="width:700px; height:200px">
+ <img title="AWS Explorer" src="explorer.png" style="width:700px; height:200px"/>
+ <figcaption><strong>Figure:</strong> A explore like way to search for KyFromAbove files on AWS.</figcaption>
 </p>
 
 <h2 id="open-data-registry-on-aws">Open Data Registry on AWS</h2>
@@ -130,7 +137,8 @@
 </code></pre>
 <p>KyFromAbove's landing page in the <a href="https://registry.opendata.aws/kyfromabove">AWS Open Data Registry</a>. This page contains descriptions for KyFromAbove products, code snippets to get you started search the bucket with <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html">AWSCLI</a> Command Line Interface, links to tools, publications, endpoints, etc.  </p>
 <p align="center">
-  <img title="KyFromAbove on AWS" src="registry.png" style="width:400px; height:450px;">
+  <img title="KyFromAbove on AWS" src="registry.png" style="width:400px; height:450px;"/>
+  <figcaption><strong>Figure</strong> Resouce description on the KyFromAbove landing page on the [AWS Open Data Registry](https://registry.opendata.aws/kyfromabove/).</figcaption>
 </p>
               
             </div>
