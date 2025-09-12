@@ -11,3 +11,5 @@ nav:
   - STAC with Desktop GIS: 
     - QGIS: desktop-gis/qgis/index.md
     - ArcGIS Pro: desktop-gis/arcgis-pro/index.md  
+  - Python Exercises: 
+     - Notebooks: python/index.md
