@@ -1,9 +1,7 @@
-gdal<3.10.3
 geopandas==1.1.1
 leafmap==0.51.0
-pdal==2.8.4
+pdal==3.5.3
 pystac_client==0.9.0
-localtileserver
-rasterstats
-rasterio
-xarray
+rasterio==1.4.3
+rasterstats==0.20.0
+trimesh==4.8.1

@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 buildings_with_hag.*
-hag.
+hag.*
 
 arcgis-pro-project
 qgis-project
