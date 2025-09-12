@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 buildings_with_hag.*
 hag.*
+notebook/*.py
 
 arcgis-pro-project
 qgis-project
