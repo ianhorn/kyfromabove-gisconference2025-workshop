@@ -15,10 +15,11 @@ dependencies:
   - pdal=2.8.4
   - scipy
   - trimesh
-  - mapbox-earcut
-  - triangle
-  - manifold3d
   - pip
   - pip:
     - pystac-client
+    - mapbox-earcut
+    - triangle
+    - manifold3d
+
  
