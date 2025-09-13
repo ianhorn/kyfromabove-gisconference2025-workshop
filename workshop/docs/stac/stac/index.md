@@ -14,7 +14,7 @@ Here are some highlights from the [STAC Spec](https://stacspec.org) landing page
 >>When a user wants to search for all the imagery in their area and time of interest they can’t make just one search — they have to use different tools and connect to API’s that are similar but all slightly different. STAC aims to make that much easier, by providing common metadata to expose geospatial assets.
 
 Space, and Time?  And no, we aren't talking about General Relativity. <br><p>
-<img src="assets/cubo-brazil-data-cube-bdc.png" /><figcaption><strong>Figure:</strong> Datacube rendering to visualized data collection over time.  Taken from <a href="https://data.inpe.br/bdc/web/en/stac-spatiotemporal-asset-catalog-2/">Brazil Data Cube</a>.
+<img src="assets/cubo-brazil-data-cube-bdc.png" /><figcaption><strong>Figure:</strong> Datacube rendering to visualized data collection over time.  Taken from <a href="https://data.inpe.br/bdc/web/en/stac-spatiotemporal-asset-catalog-2/">Brazil Data Cube</a>.  This makes more sense for more frequently collected data (e.g., satellite).
 </p>
 
 Yes, you can simultaneously query by geography and dates for an area of interest.
@@ -39,7 +39,7 @@ The basic components of a STAC are the following:
 
 <p align="center">
     <img src="assets/stacitem.jpeg" width="65%" height="auto" />
-    <figcaption><strong>Figure: </strong> Graphic borrowed from the [STAC Spec](https://stacspec.org/en/tutorials/intro-to-stac/).
+    <figcaption><strong>Figure: </strong> Graphic borrowed from the <a href="https://stacspec.org/en/tutorials/intro-to-stac/">STAC Spec</a>.
 </p>
 
 2. Catalog
@@ -49,7 +49,7 @@ The basic components of a STAC are the following:
 
 <p align="center">
     <img src="assets/cataloglayout.jpeg" width="75%" height="auto" />
-    <figcaption><strong>Figure: </strong> Graphic borrowed from the [STAC Spec](https://stacspec.org/en/tutorials/intro-to-stac/).
+    <figcaption><strong>Figure: </strong> Graphic borrowed from the <a href="https://stacspec.org/en/tutorials/intro-to-stac/">STAC Spec</a>.
 </p>
 
 3. Collection
@@ -62,9 +62,8 @@ The basic components of a STAC are the following:
 
 <p align="center">
     <img src="assets/staccollection.png" width="75%" height="auto" />
-    <figcaption><strong>Figure: </strong> Graphic borrowed from the [STAC Spec](https://stacspec.org/en/tutorials/intro-to-stac/).
+    <figcaption><strong>Figure: </strong> Graphic borrowed from the <a href="https://stacspec.org/en/tutorials/intro-to-stac/">STAC Spec</a>.
 </p></p>
-
 4. **STAC API**
 
     - enables the search component
@@ -75,7 +74,9 @@ The basic components of a STAC are the following:
     - [OpenAPI specification](https://swagger.io/specification/)  
     - Open Geospatial Consortium [(OGC) WFS3](https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html)
 
+___
 ## TL;DR
+___
 
 1. The STAC Specification is the common structure that describes and catalogs spatiotemporal Assets.  
 2. It is indexing spatiotemporal data
