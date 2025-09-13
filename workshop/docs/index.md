@@ -4,6 +4,9 @@
 
 #### Ky GIS Conference September 2025
 
+Workshop Repo
+[https://github.com/ianhorn/kyfromabove-gisconference2025-workshop](https://github.com/ianhorn/kyfromabove-gisconference2025-workshop)
+
 Kentucky from Above on the [AWS Open Data Registry](https://registry.opendata/kyfromabove/)
 
 ## Bio
