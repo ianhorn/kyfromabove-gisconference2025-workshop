@@ -2,9 +2,8 @@ site_name: DGI - Workshop
 theme: readthedocs 
 nav:
   - Home: index.md
-  - Environment (Optional): environment/index.md
-  - Resources: resources/index.md
   - Contact: contact.md
+  - Resources: resources/index.md
   - SpatioTemporal Asset Catalog:
     - STAC: stac/stac/index.md
     - Stac-Browser: stac/stac-browser/index.md
@@ -13,5 +12,8 @@ nav:
     - ArcGIS Pro: desktop-gis/arcgis-pro/index.md  
   - Python: 
     - Exercises: python/index.md
+  - Environment (Optional): 
+    - Setup: environment/index.md
+    - MyBinder: environment/mybinder/index.md
 extra:
   version: 0.0.4

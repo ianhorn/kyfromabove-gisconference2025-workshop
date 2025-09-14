@@ -6,3 +6,34 @@ https://kyfromabove.s3.us-west-2.amazonaws.com/elevation/PointCloud/Phase3/N023E
 
 # Buildings GeoJson URL
 https://services3.arcgis.com/ghsX9CKghMvyYjBU/arcgis/rest/services/Ky_OvertureMaps_Buildings_WM_gdb/FeatureServer/0/query?where=1%3D1&objectIds=&geometry=-84.628911%2C38.975701%2C-84.611113%2C38.989593&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&relationParam=&returnGeodetic=false&outFields=*&returnGeometry=true&returnCentroid=false&returnEnvelope=false&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=4326&defaultSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&collation=&orderByFields=&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnTrueCurves=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pgeojson&token=
+
+    {
+        "type":"readers.copc",
+        "filename":f'{tile_url}'
+    },
+    {
+        "type":"filters.expression",
+        "expression":"ReturnNumber == 1 || ReturnNumber == 1"        
+    },
+    {
+        "type":"filters.hag_delaunay",
+        "allow_extrapolation":True
+    },
+    {
+        "type":"filters.ferry",
+        "dimensions":"HeightAboveGround=>Z"
+    },
+    {
+        "type":"writers.gdal",
+        "filename":"output/hag.tif",
+        "resolution":2,
+        "output_type":"max",
+        "gdalopts":[
+            "COMPRESS=LZW",
+            "TILED=YES",
+            "BLOCKYSIZE=256",
+            "BLOCKYSIZE=256"
+        ]
+    }
+
+    https://mybinder.org/v2/gh/ianhorn/kyfromabove-gisconference2025-workshop/8f284b837ac6f41e99ff61d42058ef2247d78f21?urlpath=lab%2Ftree%2Fnotebooks%2Fworkshop-exercise.ipynb
