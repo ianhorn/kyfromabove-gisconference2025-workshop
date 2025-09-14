@@ -13,7 +13,7 @@
       <script>
         // Current page data
         var mkdocs_page_name = "QGIS";
-        var mkdocs_page_input_path = "desktop-gis\\qgis\\index.md";
+        var mkdocs_page_input_path = "desktop-gis/qgis/index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -33,7 +33,7 @@
           <a href="../.." class="icon icon-home"> DGI - Workshop
         </a>
         <div class="version">
-          0.0.4
+          0.0.5
         </div><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -47,15 +47,11 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../environment/">Environment (Optional)</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
                 </li>
               </ul>
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../../resources/">Resources</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../../contact/">Contact</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">SpatioTemporal Asset Catalog</span></p>
@@ -69,6 +65,12 @@
               <ul class="current">
                   <li class="toctree-l1 current"><a class="reference internal current" href="#">QGIS</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#browser-panel">Browser Panel</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#plugins-and-connections">Plugins and Connections</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#add-stac-data">Add STAC Data</a>
+    </li>
     </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../arcgis-pro/">ArcGIS Pro</a>
@@ -77,6 +79,13 @@
               <p class="caption"><span class="caption-text">Python</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../python/">Exercises</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Environment (Optional)</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../environment/">Setup</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../environment/mybinder/index.md">MyBinder</a>
                   </li>
               </ul>
       </div>
@@ -104,7 +113,114 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="using-stac-api-with-qgis">Using STAC API with QGIS</h1>
-<p>Minimum Requirements: QGIS 3.0.0</p>
+<p>Minimum Requirements: QGIS 3.0.0, recommended &gt;= QGIS 3.38.X</p>
+<p>*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  </p>
+<p>I like to make sure my Browser in QGIS has a view items set up.  </p>
+<p align="center">
+ <img src="assets/browser.png" width="400" height="auto" />
+ <figcaption><strong>Figure:</strong> QGIS Browser Panel - I like to make sure my QGIS has REST Services, STAC connections, and local directories already set to go.
+ </figcaption>
+</p>
+
+<h2 id="browser-panel">Browser Panel</h2>
+<ul>
+<li>Add relevant directories (e.g., Downloads, Documents, etc)</li>
+<li>Add STAC Connections<ul>
+<li>Name <em>kyfromabove</em></li>
+<li>API URL  <code>https://spved5ihrl.execute-api.us-west-2.amazonaws.com/</code></li>
+</ul>
+</li>
+<li>REST Servers<ul>
+<li><em>kyraster</em> <code>https://kyraster.ky.gov/arcgis/rest/services/</code></li>
+<li><em>kygisserver</em> <code>https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services/</code></li>
+</ul>
+</li>
+</ul>
+<p>Toggle open <em>kygisserver</em> under ArcGIS REST Servers, scroll towards the bottom and look for <em>Ky_TCM_Base_WGS84WM</em>.  </p>
+<p>Toggle open, right click on layers, add to map.  Optionally, in the Layers panel, right click and save as a layerfile locally to use in future projects.</p>
+<p align="center">
+    <img src="assets/alllayers.png" width="300" height="auto" />
+    <figcaption><strong>Figure:</strong> REST Services connections setup in the Browser panel in QGIS.
+    </figcaption>
+</p>
+
+<h2 id="plugins-and-connections">Plugins and Connections</h2>
+<ol>
+<li>
+<p><em>Lat Lon Tools</em> - quickly capture extent coordinates
+<img alt="Lat Lon Tools" src="assets/latlon.png" /></p>
+</li>
+<li>
+<p><em>STAC API Browser</em> <br />
+<img alt="STAC API Browser" src="assets/stacbrowser.png" /></p>
+</li>
+</ol>
+<p>Set up STAC Connections</p>
+<ol>
+<li>In Browser panel, right click STAC</li>
+<li>Add Connection</li>
+</ol>
+<p align="center">
+    <img src="assets/stacconnection.png" width="400" height="auto" />
+    <figcaption><strong>Figure:</strong> STAC Connection dialog box.
+    </figcaption>
+</p>
+<ol>
+<li>Connection Name - <em>kyfromabove</em>  </li>
+<li>URL - <code>https://spved5ihrl.execute-api.us-west-2.amazonaws.com/</code></li>
+</ol>
+<p>At this point you have all the relavent connections, services, and layers.</p>
+<p align="center">
+    <img src="assets/statewide.png" width="500" height="auto" />
+    <figcaption><strong>Figure:</strong> Minimum connections and layers for QGIS project.
+    </figcaption>
+</p>
+
+<h2 id="add-stac-data">Add STAC Data</h2>
+<p>Zoom to a location of interest on the map.  Eventually, you may need to zoom in or out to get an appropriate query result from the API Browser.</p>
+<p>I have randomly zoomed to an airport in Martin County (easter Kentucky).  FYI, using the Lat Lon Tools I quickly grabbed my extent.  <em>-83.44882668,37.26136889,-82.05662517,38.27153324</em> </p>
+<p>STAC Browser API Plugin </p>
+<ul>
+<li>Make sure the <em>kyfromabove</em> connection is selected.  </li>
+<li>Click Fetch Collections.  </li>
+<li>Click on the <em>Digital Elevation Model Phase 3</em> so that it is selected</li>
+<li>For extent, click <em>Map Canvas Extent</em></li>
+<li>Scroll down, click search</li>
+</ul>
+<p>Depending on your internet connection, the seach query should be quick (seconds).  </p>
+<p align="center">
+    <img src="assets/searchresults.png" width="500" height="auto" />
+    <figcaption><strong>Figure:</strong> Search results for an area of interest using the map view extent with the STAC Browser plugin.  
+    </figcaption>
+</p>
+
+<p>I like to add all assets footprints, provided the results are 10 or less.  This way, I can see which IDs in the search results match up to the footprints in the map.  </p>
+<p>In the STAC Browser window:</p>
+<ul>
+<li>click on an asset you want to use</li>
+<li>Check <em>add layer to the map</em>.</li>
+<li>Click <em>Add selected asset as a layer</em></li>
+</ul>
+<p><img alt="Add Asset" src="assets/addlayer.png" /></p>
+<p>Repeat this for your area of interest.  I have using 6 assets, making a 3x2 grid.  N111E408-410 and N112E408-410.  Any more than this,  I would recommend using the python terminal in qqis to search the API to add layers.  </p>
+<p><img alt="DEM Grid" src="assets/6tiles.png" /></p>
+<p>Now what?  We don't want to analyze the tiles individually, but as a group.  Solution.  Build a virtual raster.</p>
+<ul>
+<li>In the processing toolbox, type <em>Build Virtual Raster</em></li>
+<li>Double Click the tool under <em>GDAL</em></li>
+<li>For input layers, click on 3 dots</li>
+<li>Select the six layers we added</li>
+<li>Click the back arrow at top left</li>
+<li>If no other changes needed, click run</li>
+</ul>
+<p align="center">
+    <img src="assets/virtualraster.png" width="500" height="auto" />
+    <figcaption><strong>Figure:</strong> Virtual Raster built from six STAC Item assets added to the map.  
+    </figcaption>
+</p>
+
+<p>The benefit of mosaic this way is that you avoid the need to download individual tiles. You create a virtual raster from streaming COGs, and export virtual raster locally.</p>
+<p>Play around with different processing tools.  For some, like the Whitebox Geotools Plugin, you will need to export your virtual raster to a local directory.  </p>
               
             </div>
           </div><footer>

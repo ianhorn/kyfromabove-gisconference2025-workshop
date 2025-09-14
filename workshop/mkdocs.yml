@@ -16,4 +16,4 @@ nav:
     - Setup: environment/index.md
     - MyBinder: environment/mybinder/index.md
 extra:
-  version: 0.0.4
+  version: 0.0.5
