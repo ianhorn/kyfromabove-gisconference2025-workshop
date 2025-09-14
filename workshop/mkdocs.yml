@@ -13,3 +13,5 @@ nav:
     - ArcGIS Pro: desktop-gis/arcgis-pro/index.md  
   - Python: 
     - Exercises: python/index.md
+extra:
+  version: 0.0.4
