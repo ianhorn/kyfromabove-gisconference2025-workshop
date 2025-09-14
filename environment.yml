@@ -4,16 +4,13 @@ channels:
 dependencies:
   - python=3.12.10
   - gdal<=3.10.2
-  - geopandas
   - ipywidgets
   - jupyterlab
   - leafmap
   - geopandas
   - rasterio
   - rasterstats
-  - shapely
   - pdal=2.8.4
-  - scipy
   - trimesh
   - pip
   - pip:

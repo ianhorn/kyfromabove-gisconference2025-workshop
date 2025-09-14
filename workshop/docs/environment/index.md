@@ -19,7 +19,7 @@ From your Github Dashboard, use the search bar at the top.
 ___
 ![Github Search](assets/github_search.png)
 ___
-Copy and paste the following:
+Copy and paste the following in the search bar:
 
 ```bash
 repo:ianhorn/kyfromabove-gisconference2025-workshop
