@@ -2,12 +2,12 @@
 
 Minimum Requirements: QGIS 3.0.0, recommended >= QGIS 3.38.X
 
-*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  
+*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just a primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  
 
 I like to make sure my Browser in QGIS has a view items set up.  
 
 <p align="center">
- <img src="assets/browser.png" width="400" height="auto" />
+ <img src="assets/browser.png" width="350" height="auto" />
  <figcaption><strong>Figure:</strong> QGIS Browser Panel - I like to make sure my QGIS has REST Services, STAC connections, and local directories already set to go.
  </figcaption>
 </p>
@@ -45,13 +45,14 @@ Set up STAC Connections
 
 1. In Browser panel, right click STAC
 2. Add Connection
+3. Connection Name - *kyfromabove*  
+4. URL - `https://spved5ihrl.execute-api.us-west-2.amazonaws.com/`
+
 <p align="center">
     <img src="assets/stacconnection.png" width="400" height="auto" />
     <figcaption><strong>Figure:</strong> STAC Connection dialog box.
     </figcaption>
 </p>
-3. Connection Name - *kyfromabove*  
-4. URL - `https://spved5ihrl.execute-api.us-west-2.amazonaws.com/`
 
 At this point you have all the relavent connections, services, and layers.
 <p align="center">
@@ -110,7 +111,7 @@ In the STAC Browser window:
     </figcaption>
 </p>
 
-The benefit of mosaic this way is that you avoid the need to download individual tiles. You create a virtual raster from streaming COGs, and export virtual raster locally.
+The benefit of mosaicking like this is you avoid the need to download individual tiles. You create a virtual raster from streaming COGs (and export virtual raster locally if you want).
 
 Play around with different processing tools.  For some, like the Whitebox Geotools Plugin, you will need to export your virtual raster to a local directory.  
 

@@ -64,22 +64,20 @@ The basic components of a STAC are the following:
     <img src="assets/staccollection.png" width="75%" height="auto" />
     <figcaption><strong>Figure: </strong> Graphic borrowed from the <a href="https://stacspec.org/en/tutorials/intro-to-stac/">STAC Spec</a>.
 </p></p>
-4. **STAC API**
+4. **STAC API** 
 
-    - enables the search component
-
-        - data(base) backend - Postgres, Opensearch, etc.
-        - serverless architecture - Lambda, Geoparquet, etc.
-
-    - [OpenAPI specification](https://swagger.io/specification/)  
-    - Open Geospatial Consortium [(OGC) WFS3](https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html)
+ - Enables the search component
+    - data(base) backend - Postgres, Opensearch, etc.
+    - serverless architecture - Lambda, Geoparquet, etc.
+- [OpenAPI specification](https://swagger.io/specification/)  
+- Open Geospatial Consortium [(OGC) WFS3](https://ubuntu.qgis.org/qgisdata/QGIS-Documentation/live/html/en/docs/server_manual/services/ogcapif.html)
 
 ___
 ## TL;DR
 ___
 
-1. The STAC Specification is the common structure that describes and catalogs spatiotemporal Assets.  
-2. It is indexing spatiotemporal data
+1. The STAC Specification is the common structure that describes and catalogs spatiotemporal assets.  
+2. It indexes spatiotemporal data
 3. Leverages metadata
 4. Items are the basic atomic unit
 5. Catalogs provide structure

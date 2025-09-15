@@ -10,7 +10,11 @@ It converts what looks like an JSON file into a user friendly experience.  Pleas
 https://kygeonet.ky.gov/stac
 ```
 
-![alt text](assets/landing-page.png)
+<p align="center">
+ <img src="assets/landing-page.png" width="90%" />
+ <figcaption><strong>Figure: </strong>KyFromAbove Stac-Browser landing page.
+ </figcaption>
+</p>
 
 ### Button Functions
 
