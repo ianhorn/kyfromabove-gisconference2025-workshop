@@ -74,7 +74,7 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#extract-building-heights">Extract Building Heights</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#commandline">Commandline</a>
+    <li class="toctree-l2"><a class="reference internal" href="#gists">Gists</a>
     </li>
     </ul>
                   </li>
@@ -120,7 +120,49 @@
 </p>
 
 <hr />
-<h2 id="commandline">Commandline</h2>
+<h2 id="gists">Gists</h2>
+<p>Simple STAC Search</p>
+<pre><code class="language-python">from pystac_client import Client
+
+api_url = 'https://spved5ihrl.execute-api.us-west-2.amazonaws.com/'
+catalog = Client.open(api_url)
+
+mysearch = catalog.search(
+    max_items=20,
+    bbox=[-88.45770480,36.91939541,-88.12757292,37.07265632]
+)
+
+# Convert results to a list of items
+items = list(mysearch.get_items())
+
+# Print each item ID
+for item in items:
+    print(item.id, item.bbox)
+</code></pre>
+<p>Create a mosaicjson</p>
+<pre><code class="language-python">from maap.maap import MAAP
+maap = MAAP(maap_host='api.maap-project.org')
+username = maap.profile.account_info()[&quot;username&quot;]
+
+local_path = &quot;/local/path/to/files/&quot;
+
+files = glob.glob(os.path.join(dps_output, &quot;*.tif&quot;), recursive=False)
+
+def local_to_s3(url):
+    ''' A Function to convert local paths to s3 urls'''
+    if url.startswith(&quot;my-private-bucket&quot;):
+        return url.replace(&quot;my-private-bucket&quot;, f&quot;s3://maap-ops-workspace/{username}&quot;)
+
+    if url.startswith(&quot;my-public-bucket&quot;):
+        return url.replace(&quot;my-public-bucket&quot;, f&quot;s3://maap-ops-workspace/shared/{username}&quot;)
+
+    if url.startswith(&quot;shared-buckets&quot;):
+        return url.replace(&quot;shared-buckets&quot;, &quot;s3://maap-ops-workspace/shared&quot;)
+
+tiles = [local_to_s3(file) for file in files]
+
+mosaicdata = MosaicJSON.from_urls(tiles, minzoom=9, maxzoom=16)
+</code></pre>
               
             </div>
           </div><footer>

@@ -114,10 +114,10 @@
               
                 <h1 id="using-stac-api-with-qgis">Using STAC API with QGIS</h1>
 <p>Minimum Requirements: QGIS 3.0.0, recommended &gt;= QGIS 3.38.X</p>
-<p>*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  </p>
+<p>*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just a primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  </p>
 <p>I like to make sure my Browser in QGIS has a view items set up.  </p>
 <p align="center">
- <img src="assets/browser.png" width="400" height="auto" />
+ <img src="assets/browser.png" width="350" height="auto" />
  <figcaption><strong>Figure:</strong> QGIS Browser Panel - I like to make sure my QGIS has REST Services, STAC connections, and local directories already set to go.
  </figcaption>
 </p>
@@ -159,16 +159,15 @@
 <ol>
 <li>In Browser panel, right click STAC</li>
 <li>Add Connection</li>
+<li>Connection Name - <em>kyfromabove</em>  </li>
+<li>URL - <code>https://spved5ihrl.execute-api.us-west-2.amazonaws.com/</code></li>
 </ol>
 <p align="center">
     <img src="assets/stacconnection.png" width="400" height="auto" />
     <figcaption><strong>Figure:</strong> STAC Connection dialog box.
     </figcaption>
 </p>
-<ol>
-<li>Connection Name - <em>kyfromabove</em>  </li>
-<li>URL - <code>https://spved5ihrl.execute-api.us-west-2.amazonaws.com/</code></li>
-</ol>
+
 <p>At this point you have all the relavent connections, services, and layers.</p>
 <p align="center">
     <img src="assets/statewide.png" width="500" height="auto" />
@@ -219,7 +218,7 @@
     </figcaption>
 </p>
 
-<p>The benefit of mosaic this way is that you avoid the need to download individual tiles. You create a virtual raster from streaming COGs, and export virtual raster locally.</p>
+<p>The benefit of mosaicking like this is you avoid the need to download individual tiles. You create a virtual raster from streaming COGs (and export virtual raster locally if you want).</p>
 <p>Play around with different processing tools.  For some, like the Whitebox Geotools Plugin, you will need to export your virtual raster to a local directory.  </p>
               
             </div>

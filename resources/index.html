@@ -53,6 +53,10 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Resources</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#stac-api">STAC API</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stac-browser">Stac-Browser</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#kygisserver">KyGISServer</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#open-data-portal">Open Data Portal</a>
@@ -116,6 +120,12 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="resources">Resources</h1>
+<h2 id="stac-api">STAC API</h2>
+<pre><code class="language-html">https://spved5ihrl.execute-api.us-west-2.amazonaws.com/
+</code></pre>
+<h2 id="stac-browser">Stac-Browser</h2>
+<pre><code class="language-html">https://kygeonet.ky.gov/stac
+</code></pre>
 <h2 id="kygisserver">KyGISServer</h2>
 <pre><code class="language-html">https://kygisserver.ky.gov/arcgis/rest/services/WGS84WM_Services
 </code></pre>
@@ -125,14 +135,15 @@
 </code></pre>
 <p>The KyGovMaps <a href="https://opengisdata.ky.gov/">Open Data Portal</a> is another great resource for vector data sources.  This is also the place you want to visit for <strong>Metadata</strong>.  <em>It will be the only source for metadata once <a href="https://kygeoportal.ky.gov">KyGeoPortal</a> retires in October 2025.</em></p>
 <h2 id="kyraster">KyRaster</h2>
-<pre><code class="language-html">https://kyraster.ky.gov/arcgis/
+<pre><code class="language-html">https://kyraster.ky.gov/arcgis/imagery
+https://kyraster.ky.gov/arcgis/elevation
 </code></pre>
-<p><a href="https://kyraster.ky.gov/arcgis/rest/services">kyraster</a> is GIS Server that hosts the Commonwealth imagery and elevation data.  The above REST Service Endpoint URL functions the same way as <em>kygisserver</em>.  Documention on how to use is in the KyRaster <a href="https://kyraster.ky.gov/arcgis/sdk/rest/index.html#//02ss00000029000000">API Documentation</a></p>
+<p><a href="https://kyraster.ky.gov/arcgis/rest/services">kyraster</a> is GIS Server that hosts the Commonwealth imagery and elevation data.  The above REST Service Endpointd URL functions the same way as <em>kygisserver</em>.  Documention on how to use is in the KyRaster <a href="https://kyraster.ky.gov/arcgis/sdk/rest/index.html#//02ss00000029000000">API Documentation</a></p>
 <p>From the service endpoint, data services reside in the <em>Imagery</em> and <em>Elevation</em> folders.  </p>
 <h2 id="kyfromabove-on-aws-explorer">KyFromAbove on AWS Explorer</h2>
 <pre><code class="language-html">https://kyfromabove.s3.us-west-2.amazonaws.com/index.html
 </code></pre>
-<p>This is javascript-based <a href="https://kyfromabove.s3.us-west-2.amazonaws.com/index.html">Explorer</a>  serves the kyfromabove aws bucket as an explorer-like environment.  This is a great resource to download files if you already know the name of the file.  Also, it also contains links to tile grids in Geopackage formats that can be view in desktop software, python, online viewers, and so on.</p>
+<p>This is a javascript-based <a href="https://kyfromabove.s3.us-west-2.amazonaws.com/index.html">Explorer</a>  serves the kyfromabove aws bucket as an explorer-like environment.  This is a great resource to download files if you already know the name of the file.  Also, it also contains links to tile grids in Geopackage formats that can be view in desktop software, python, online viewers, and so on.</p>
 <p align="center">
  <img title="AWS Explorer" src="explorer.png" style="width:700px; height:200px"/>
  <figcaption><strong>Figure:</strong> A explore like way to search for KyFromAbove files on AWS.</figcaption>
