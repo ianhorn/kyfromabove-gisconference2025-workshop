@@ -1,10 +1,19 @@
-Minimum Requirements: ArcGIS Pro 3.2
+Minimum Requirements: ArcGIS Pro 3.5
 
 ## Use the STAC API in an ArcGIS Pro project.
 
 1. Open ArcGIS
 2. Click map
-3. Give you New Project a name
+3. Give your New Project a name
+  
+    - Click *Project* in the top ribbon
+    - Click *Options*
+    -  On the left, scroll down to select *Map and Scene*
+    - *Layers and Tables*
+  
+  3  - Uncheck the default make added layers visible by default\*
+
+* By disabling the default setting of newly added layers as visible, we reduce the risk ArcGIS Pro's pet memory hog having a tantrum.  
 
 ### Cloud Store
 

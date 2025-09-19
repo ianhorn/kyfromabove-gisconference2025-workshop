@@ -76,8 +76,8 @@ ___
 ## TL;DR
 ___
 
-1. The STAC Specification is the common structure that describes and catalogs spatiotemporal assets.  
-2. It indexes spatiotemporal data
+1. Indexing (geospatial+temporal) Data
+2. The STAC Specification is the common structure that describes and catalogs spatiotemporal assets.  
 3. Leverages metadata
 4. Items are the basic atomic unit
 5. Catalogs provide structure

@@ -2,7 +2,7 @@
 
 Minimum Requirements: QGIS 3.0.0, recommended >= QGIS 3.38.X
 
-*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just a primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.  
+*Note: Due to workshop locale restraints, it is not possible to perform this exercise.  Below is just a primer I am providing for anyone who wants to use this open Github Page or for you to continue working on your own time/machines.*  
 
 I like to make sure my Browser in QGIS has a view items set up.  
 
