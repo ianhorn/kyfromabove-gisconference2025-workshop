@@ -5,6 +5,10 @@ __pycache__/
 buildings_with_hag.*
 hag.*
 notebook/*.py
+.ipynb_checkpoints
+.jupyter_ystore.db
+
+cog*.json
 
 arcgis-pro-project
 qgis-project
