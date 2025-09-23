@@ -1,0 +1,1864 @@
+<VRTDataset rasterXSize="220000" rasterYSize="120000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["NAD83 / Kentucky Single Zone (ftUS)",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4269"]],PROJECTION["Lambert_Conformal_Conic_2SP"],PARAMETER["latitude_of_origin",36.3333333333333],PARAMETER["central_meridian",-85.75],PARAMETER["standard_parallel_1",37.0833333333333],PARAMETER["standard_parallel_2",38.6666666666667],PARAMETER["false_easting",4921250],PARAMETER["false_northing",3280833.333],UNIT["US survey foot",0.304800609601219,AUTHORITY["EPSG","9003"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3089"]]</SRS>
+  <GeoTransform>  5.2550000000000000e+06,  2.5000000000000000e-01,  0.0000000000000000e+00,  3.9200000000000000e+06,  0.0000000000000000e+00, -2.5000000000000000e-01</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N094E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="100000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N093E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="80000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N092E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="60000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N091E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="40000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N090E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="20000" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E306_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="200000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E305_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="180000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E304_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="160000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E303_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="140000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E302_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="120000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E301_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="100000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E300_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="80000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E299_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="60000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E298_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="40000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E297_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="20000" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">https://kyfromabove.s3.us-west-2.amazonaws.com/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N089E296_2024_Season1_3IN_cog.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="20000" RasterYSize="20000" DataType="Byte" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+      <DstRect xOff="0" yOff="0" xSize="20000" ySize="20000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8 16 32 64</OverviewList>
+</VRTDataset>
