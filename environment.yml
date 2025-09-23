@@ -13,7 +13,6 @@ dependencies:
   - rasterstats
   - pdal=2.8.4
   - trimesh
-  
   - pip
   - pip:
     - pystac-client

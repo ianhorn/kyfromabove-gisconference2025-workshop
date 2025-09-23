@@ -2,10 +2,11 @@
 
 For this exercise, you will need to choose a platform for which you can run a python notebook.  Examples include but are not limited to:
 
-- [MyBinder](https://mybinder.org)
-- [Google Colab](https://colab.research.google.com/) - Easy Setup
+- [MyBinder](https://mybinder.org) easy and free
+- [Google Colab](https://colab.research.google.com/) - Easy Setup and free
+- [Kaggle](https://www.kaggle.com/) - Easy and free
 - [SageMaker Studio Lab](https://studiolab.sagemaker.aws/) - Must already have an account - takes time to get approved
- - Local Jupyter - recommended only for experienced python users
+ - Local Jupyter - Free: recommended only for experienced python users
     - using a conda/mamba environment
     - using a virtual environment with pip (e.g., python -m venv myenv + pip install jupyter)
 

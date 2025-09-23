@@ -11,7 +11,7 @@ Minimum Requirements: ArcGIS Pro 3.5
     -  On the left, scroll down to select *Map and Scene*
     - *Layers and Tables*
   
-  3  - Uncheck the default make added layers visible by default\*
+  4. Uncheck the default make added layers visible by default\*
 
 * By disabling the default setting of newly added layers as visible, we reduce the risk ArcGIS Pro's pet memory hog having a tantrum.  
 
@@ -23,12 +23,12 @@ In the Ribbon at the top, click on Insert, Connection, New Cloud Store Connectio
 
 <p align="center">
   <img src="assets/cloudstore.png" width="300" height="auto">
-  <figcaption><strong>Figure:<strong> Insert a <em>New Cloud Storage Connection</em></figcaption>
+  <figcaption><strong>Figure:</strong> Insert a <em>New Cloud Storage Connection</em></figcaption>
 </p>
 
-In the dialog create a name for the connection file, select AMAZON as the Service Provider, kyfromabove for the Bucket (Container) Name, and US WEST (Oregon) for the Region (Environment).  
+In the dialog create a name for the connection file, select *AMAZON* as the Service Provider, *kyfromabove* for the Bucket (Container) Name, and US WEST (Oregon) for the Region (Environment).  
 
-For Provider options, add AWS_NO_SIGN_REQUEST with a value of yes.
+For Provider options, add *AWS_NO_SIGN_REQUEST* with a value of *YES*.
 
 <p align="center">
   <img src="assets/cloudconnection.png" width="300" height="auto"/>
@@ -59,7 +59,7 @@ This gives us the *Create STAC Connection* dialog box.
 
 <p align="center">
  <img src="assets/stac-connection.png" alt="STAC Connection Dialog" style="width:400px; height:auto;" />
-<figcaption><strong>Figure:<strong> Create a new <em>New STAC Connection</em>.</figcaption>
+<figcaption><strong>Figure:</strong> Create a new <em>New STAC Connection</em>.</figcaption>
 </p>
 
 Connection Name: *KyFromAbove-STAC*   
