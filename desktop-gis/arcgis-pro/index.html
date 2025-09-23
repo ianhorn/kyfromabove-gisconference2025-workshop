@@ -13,7 +13,7 @@
       <script>
         // Current page data
         var mkdocs_page_name = "ArcGIS Pro";
-        var mkdocs_page_input_path = "desktop-gis/arcgis-pro/index.md";
+        var mkdocs_page_input_path = "desktop-gis\\arcgis-pro\\index.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -130,23 +130,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p>Minimum Requirements: ArcGIS Pro 3.2</p>
+                <p>Minimum Requirements: ArcGIS Pro 3.5</p>
 <h2 id="use-the-stac-api-in-an-arcgis-pro-project">Use the STAC API in an ArcGIS Pro project.</h2>
 <ol>
 <li>Open ArcGIS</li>
 <li>Click map</li>
-<li>Give you New Project a name</li>
+<li>
+<p>Give your New Project a name</p>
+<ul>
+<li>Click <em>Project</em> in the top ribbon</li>
+<li>Click <em>Options</em></li>
+<li>On the left, scroll down to select <em>Map and Scene</em></li>
+<li><em>Layers and Tables</em></li>
+</ul>
+</li>
+<li>
+<p>Uncheck the default make added layers visible by default*</p>
+</li>
+<li>
+<p>By disabling the default setting of newly added layers as visible, we reduce the risk ArcGIS Pro's pet memory hog having a tantrum.  </p>
+</li>
 </ol>
 <h3 id="cloud-store">Cloud Store</h3>
 <p>A Cloud Store connection file is a method to crawl a cloud bucket/container like a regular folder.  In some instances, these are required when connecting to STAC APIs.  You can download a .ACS file from the <a href="https://kyfromabove.s3.us-west-2.amazonaws.com/index.html">AWS Explorer</a>.  To create your own, use the instructions below.</p>
 <p>In the Ribbon at the top, click on Insert, Connection, New Cloud Store Connection.</p>
 <p align="center">
   <img src="assets/cloudstore.png" width="300" height="auto">
-  <figcaption><strong>Figure:<strong> Insert a <em>New Cloud Storage Connection</em></figcaption>
+  <figcaption><strong>Figure:</strong> Insert a <em>New Cloud Storage Connection</em></figcaption>
 </p>
 
-<p>In the dialog create a name for the connection file, select AMAZON as the Service Provider, kyfromabove for the Bucket (Container) Name, and US WEST (Oregon) for the Region (Environment).  </p>
-<p>For Provider options, add AWS_NO_SIGN_REQUEST with a value of yes.</p>
+<p>In the dialog create a name for the connection file, select <em>AMAZON</em> as the Service Provider, <em>kyfromabove</em> for the Bucket (Container) Name, and US WEST (Oregon) for the Region (Environment).  </p>
+<p>For Provider options, add <em>AWS_NO_SIGN_REQUEST</em> with a value of <em>YES</em>.</p>
 <p align="center">
   <img src="assets/cloudconnection.png" width="300" height="auto"/>
 </p>
@@ -173,7 +187,7 @@
 <p>This gives us the <em>Create STAC Connection</em> dialog box.</p>
 <p align="center">
  <img src="assets/stac-connection.png" alt="STAC Connection Dialog" style="width:400px; height:auto;" />
-<figcaption><strong>Figure:<strong> Create a new <em>New STAC Connection</em>.</figcaption>
+<figcaption><strong>Figure:</strong> Create a new <em>New STAC Connection</em>.</figcaption>
 </p>
 
 <p>Connection Name: <em>KyFromAbove-STAC</em> <br />
